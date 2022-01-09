@@ -160,8 +160,7 @@ const Home = () => (
           <Link href="https://open.spotify.com/user/0e1lya9pm0bog8sszivw9a1tp">
             Music
           </Link>
-          , Educating ( Especially math ),
-					Traveling.
+          , Educating ( Especially math ), Traveling.
         </Paragraph>
       </Section>
 
