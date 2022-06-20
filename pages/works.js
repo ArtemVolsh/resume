@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import placeholder from '../public/images/placeholder.png'
+import tnt from '../public/images/tnt.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -16,8 +17,8 @@ const Works = () => (
         <Section>
           <WorkGridItem
             id="work1"
-            title="Work 1"
-            thumbnail={placeholder}
+            title="Abona Track and Trace"
+            thumbnail={tnt}
           ></WorkGridItem>
         </Section>
         <Section>

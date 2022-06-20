@@ -20,6 +20,8 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import placeholder from '../public/images/placeholder.png'
+import gallery from '../public/images/gallery.png'
+import tnt from '../public/images/tnt.png'
 
 const Home = () => (
   <Layout>
@@ -94,7 +96,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Self-educating in such areas as Programming, Math, Physics.
+          Employed as an Software Engineer (C#, ASP.NET, Blazor)
         </BioSection>
       </Section>
 
@@ -104,25 +106,24 @@ const Home = () => (
         </Heading>
         <BioSection>
           <Paragraph>
-            I am a developing front-end junior developer. At the moment, I have
-            no experience in commercial development. Currently, my work consists
-            entirely of learning the basic technology stack: <br />
-            <strong>
-              React, React Native, Typescript, Node.js, Express, PostgreSQL{' '}
-            </strong>
-            and related pet projects like: <br />
-            - To-do lists; <br />
-            - Calendars; <br />
-            - Modular parts of websites; <br />
-            - Password generators; <br />
-            - Chats; <br />
-            - Questionnaires; <br />
-            - Directories; <br />
-            - Converters; <br />
-            All examples of my projects as time goes on will go out in my GitHub
-            profile. I'm on the lookout for a company where I can develop my
-            hard and soft skills through training on hands-on tasks, and
-            teamwork.
+            I am currently in a Software Engineer position at{' '}
+            <Link href="https://www.abona-erp.com/de/">Abona</Link>. I'm
+            responsible for developing, and documenting Abona Track And Trace.
+            In a free of work time, I enjoying developing my pet-projects as
+            well as learning new technologies such as Neural Networks (Deep
+            Learning). My stack: <br />
+            - ASP.NET <br />
+            - Blazor Server <br />
+            - C# <br />
+            - JavaScript <br />
+            - React.js <br />
+            - Node.js <br />
+            - Express.js <br />
+            - MongoDB <br />
+            and noteworthy technologies: <br />
+            Material UI, Ant-Design, DevExpress, DevExtreme, Sass, WebPack,
+            TypeScript, Redux, RTK. <br />
+            and planning: GraphQL, Apollo, Next.js, Nuxt.js
           </Paragraph>
         </BioSection>
       </Section>
@@ -206,11 +207,19 @@ const Home = () => (
         </List>
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem href="/" title="" thumbnail={placeholder}>
-            Example Link
+          <GridItem
+            href="https://tnt-test.abona-erp.com"
+            title="Abona Track And Trace"
+            thumbnail={tnt}
+          >
+            Track And Trace
           </GridItem>
-          <GridItem href="/" title="" thumbnail={placeholder}>
-            Example Link
+          <GridItem
+            href="https://gallery-heroku.herokuapp.com"
+            title="Gallery Pet-Project"
+            thumbnail={gallery}
+          >
+            Simple Gallery
           </GridItem>
         </SimpleGrid>
 
