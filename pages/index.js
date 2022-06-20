@@ -19,7 +19,6 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import placeholder from '../public/images/placeholder.png'
 import gallery from '../public/images/gallery.png'
 import tnt from '../public/images/tnt.png'
 
